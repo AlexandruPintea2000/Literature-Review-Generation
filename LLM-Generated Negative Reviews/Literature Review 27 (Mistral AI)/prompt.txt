@@ -1,0 +1,19 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "MI - secondary prevention".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Participants enrolled in academic institutions
+- Individuals willing to explore new treatment modalities
+- cohort study
+- Participants with stable disease
+- Patients with a documented treatment plan
+
+The generated data should follow all of the following criteria: 
+- Subjects with stable mental health
+- Participants able to follow up via phone or email
+- Individuals with no history of substance abuse
+- Patients committed to improving health literacy
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 21 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

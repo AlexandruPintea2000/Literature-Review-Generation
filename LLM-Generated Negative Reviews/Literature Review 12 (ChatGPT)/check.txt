@@ -1,0 +1,22 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Retinal detachment" are found within the given JSON.
+
+Inclusion criteria: 
+- Participants with endocrine disorders
+- Participants involved in exercise groups
+- Participants from underserved populations
+- Patients who have received standard care
+- Individuals willing to engage in group discussions
+
+Exclusion criteria: 
+- Patients willing to report health status changes
+- Subjects who have demonstrated improvements in lifestyle
+- Subjects with cancer
+- Participants attending wellness seminars
+- Subjects without recent hospitalization
+- experimental, observational or bothbe published in the last 5 years
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

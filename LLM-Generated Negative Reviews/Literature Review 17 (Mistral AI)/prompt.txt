@@ -1,0 +1,20 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Hyperhidrosis".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Subjects with mental acuity for assessments
+- Participants with stable disease
+- Subjects who do not smoke
+- Individuals who consent to participate
+
+The generated data should follow all of the following criteria: 
+- Subjects committed to lifelong learning about health
+- Patients engaged in collaborative care models
+- the experimental setting is mentioned
+- Patients with positive response to previous treatment
+- Participants living independently
+- Individuals willing to explore new treatment modalities
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 15 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

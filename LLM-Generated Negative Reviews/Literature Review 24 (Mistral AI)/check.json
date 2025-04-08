@@ -1,0 +1,10 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Participants involved in peer support groups",
+        "Patients with a documented treatment plan",
+        "diagnosed with the topic condition for at least 1 year",
+        "Adolescents aged 13-18"
+    ],
+    "topic_found": true
+}

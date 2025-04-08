@@ -1,0 +1,21 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Erythrocytosis/polycythaemia".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Participants not currently participating in other trials
+- Subjects practicing mindfulness or relaxation techniques
+- Subjects practicing mindfulness or relaxation techniques
+- Subjects adhering to research guidelines
+- Participants willing to track personal health data
+
+The generated data should follow all of the following criteria: 
+- Participants with prior knowledge of study topic
+- Individuals willing to engage in follow-up interviews
+- Subjects living in stable communities
+- Patients displaying personal investment in health
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 39 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.
+No newlines in any JSON field. 
+

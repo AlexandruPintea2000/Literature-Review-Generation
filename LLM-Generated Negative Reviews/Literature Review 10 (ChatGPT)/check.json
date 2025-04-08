@@ -1,0 +1,13 @@
+{
+    "inclusion_criteria_found": [
+        "Subjects adhering to research guidelines",
+        "Participants willing to track personal health data"
+    ],
+    "exclusion_criteria_found": [
+        "Participants with prior knowledge of study topic",
+        "Individuals willing to engage in follow-up interviews",
+        "Subjects living in stable communities",
+        "Patients displaying personal investment in health"
+    ],
+    "topic_found": true
+}

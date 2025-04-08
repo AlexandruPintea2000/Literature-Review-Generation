@@ -1,0 +1,20 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Anaemia - B12 and folate deficiency".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Female participants
+- Patients receiving coordinated care
+- Individuals who attend support groups proactively
+- Patients with established social support systems
+- Participants with low socioeconomic status
+- Patients enrolled in clinical trials
+
+The generated data should follow all of the following criteria: 
+- Patients who manage stress effectively
+- Participants with experience in health research
+- Subjects from diverse ethnic backgrounds
+- Participants with specific comorbidities
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 19 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

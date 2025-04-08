@@ -1,0 +1,20 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Sarcoidosis" are found within the given JSON.
+
+Inclusion criteria: 
+- Patients not taking disallowed medications
+- Individuals able to follow written instructions
+- Subjects with effective coping strategies
+- Subjects who have demonstrated improvements in lifestyle
+- Individuals able to follow a physical activity regimen
+
+Exclusion criteria: 
+- Participants who are not pregnant
+- Individuals with sleep disorders
+- Patients involved in lifestyle modification programs
+- Patients who have received standard care
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

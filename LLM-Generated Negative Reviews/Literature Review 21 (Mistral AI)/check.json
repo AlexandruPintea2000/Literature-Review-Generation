@@ -1,0 +1,12 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "mentions results",
+        "Subjects with effective coping strategies",
+        "Individuals with no significant cognitive impairment",
+        "Patients who manage stress effectively",
+        "Patients engaged in regular health assessments",
+        "english"
+    ],
+    "topic_found": true
+}

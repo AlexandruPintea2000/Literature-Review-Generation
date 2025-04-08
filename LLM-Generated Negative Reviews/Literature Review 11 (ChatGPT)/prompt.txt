@@ -1,0 +1,22 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Fungal nail infection".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Patients who have received standard care
+- Participants with family support
+- Patients with positive response to previous treatment
+- Patients willing to provide medical history
+- Patients who communicate openly about health concerns
+
+The generated data should follow all of the following criteria: 
+- Individuals willing to engage in group discussions
+- Subjects who have demonstrated improvements in lifestyle
+- Patients with known treatment responsiveness
+- Adult participants
+- Patients with skin conditions
+- Subjects with adherence to treatment protocol
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 50 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.
+No newlines in any JSON field.

@@ -1,0 +1,19 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Neck lump".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Participants who are not pregnant
+- Subjects who can maintain health diaries
+- Individuals participating in fitness programs
+- Individuals demonstrating cultural competency
+
+The generated data should follow all of the following criteria: 
+- Patients able to recognize symptom changes
+- Subjects with specific lab results within normal ranges
+- Patients with a documented treatment plan
+- Subjects with a documented health history
+- Participants with reliable transportation access
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 30 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

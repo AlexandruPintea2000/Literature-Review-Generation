@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Insulin therapy in type 1 diabetes" are found within the given JSON.
+
+Inclusion criteria: 
+- Patients with skin conditions
+- Children aged 6-12
+- Participants with specific genetic conditions
+- Individuals able to follow a physical activity regimen
+- Patients who manage stress effectively
+- Individuals comfortable with technology use
+
+Exclusion criteria: 
+- Subjects displaying a positive attitude toward health
+- Subjects from diverse ethnic backgrounds
+- Individuals with disability
+- Participants engaged in therapeutic interventions 
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

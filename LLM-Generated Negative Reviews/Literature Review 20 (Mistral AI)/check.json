@@ -1,0 +1,11 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Participants with endocrine disorders",
+        "Subjects who have demonstrated improvements in lifestyle",
+        "diagnosed with the topic condition for at least 1 year",
+        "Individuals engaged in self-management practices",
+        "Patients with current insurance coverage"
+    ],
+    "topic_found": true
+}

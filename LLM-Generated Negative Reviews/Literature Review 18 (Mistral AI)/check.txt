@@ -1,0 +1,22 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Trichomoniasis" are found within the given JSON.
+
+Inclusion criteria: 
+- Patients able to maintain contact with researchers
+- Patients who communicate openly about health concerns
+- Subjects who can maintain health diaries
+- Individuals motivated by peer influence
+- Adolescents aged 13-18
+- Subjects reporting accurate health information
+
+Exclusion criteria: 
+- Patients with a documented treatment plan
+- Patients reporting daily activity levels
+- Individuals willing to engage in group discussions
+- Individuals capable of articulating health needs
+- Patients displaying personal investment in health
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

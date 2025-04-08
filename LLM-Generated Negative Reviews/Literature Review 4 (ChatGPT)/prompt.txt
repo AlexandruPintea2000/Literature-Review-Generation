@@ -1,0 +1,21 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Generalized anxiety disorder".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Patients who do not have caregiving responsibilities
+- Individuals with no history of allergies
+- Individuals with no significant cognitive impairment
+- Adolescents aged 13-18
+
+The generated data should follow all of the following criteria: 
+- Individuals motivated by peer influence
+- Patients engaged in regular health assessments
+- Participants involved in exercise groups
+- Subjects reporting accurate health information
+- Participants who are not pregnant
+- cohort study
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 44 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.
+No newlines in any JSON field. 

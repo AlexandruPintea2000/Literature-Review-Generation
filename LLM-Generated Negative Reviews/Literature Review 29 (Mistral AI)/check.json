@@ -1,0 +1,11 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Patients with an understanding of health risks",
+        "Patients with current insurance coverage",
+        "Patients willing to provide medical history",
+        "Participants with family support",
+        "Individuals with mental health disorders"
+    ],
+    "topic_found": true
+}

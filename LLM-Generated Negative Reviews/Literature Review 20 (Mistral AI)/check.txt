@@ -1,0 +1,22 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Pancreatitis - chronic" are found within the given JSON.
+
+Inclusion criteria: 
+- the experimental setting is mentioned
+- Patients who communicate openly about health concerns
+- Subjects with specific lab results within normal ranges
+- Participants with a stable living environment
+- Participants with specific genetic conditions
+- Participants with specific comorbidities
+
+Exclusion criteria: 
+- Participants with endocrine disorders
+- Subjects who have demonstrated improvements in lifestyle
+- diagnosed with the topic condition for at least 1 year
+- Individuals engaged in self-management practices
+- Patients with current insurance coverage
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

@@ -1,0 +1,11 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Subjects practicing mindfulness or relaxation techniques",
+        "Participants with prior knowledge of study topic",
+        "Participants comfortable sharing medical history",
+        "Patients willing to provide medical history",
+        "Individuals receiving preventive care"
+    ],
+    "topic_found": true
+}

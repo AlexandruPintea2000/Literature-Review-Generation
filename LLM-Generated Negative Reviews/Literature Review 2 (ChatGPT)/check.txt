@@ -1,0 +1,23 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Staphylococcal whitlow - and herpetic" are found within the given JSON.
+
+Inclusion criteria: 
+- Participants who exercise regularly
+- Participants demonstrating interest in study aims
+- Individuals with access to healthcare services
+- Participants with access to educational materials
+- Participants from specific educational backgrounds
+- Subjects without major psychiatric disorders
+
+Exclusion criteria: 
+- Participants involved in exercise groups
+- Patients with established social support systems
+- Patients not taking disallowed medications
+- Subjects with stable mental health
+- Individuals able to follow written instructions
+- Individuals with disability
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

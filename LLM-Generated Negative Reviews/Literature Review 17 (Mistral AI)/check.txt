@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Hyperhidrosis" are found within the given JSON.
+
+Inclusion criteria: 
+- Subjects with mental acuity for assessments
+- Participants with stable disease
+- Subjects who do not smoke
+- Individuals who consent to participate
+
+Exclusion criteria: 
+- Subjects committed to lifelong learning about health
+- Patients engaged in collaborative care models
+- the experimental setting is mentioned
+- Patients with positive response to previous treatment
+- Participants living independently
+- Individuals willing to explore new treatment modalities
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

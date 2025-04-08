@@ -1,0 +1,11 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "subjects committed to lifelong learning about health",
+        "patients engaged in collaborative care models",
+        "patients with positive response to previous treatment",
+        "participants living independently",
+        "individuals willing to explore new treatment modalities"
+    ],
+    "topic_found": true
+}

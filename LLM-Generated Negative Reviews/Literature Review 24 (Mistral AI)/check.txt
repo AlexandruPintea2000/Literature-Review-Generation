@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Gastroenteritis" are found within the given JSON.
+
+Inclusion criteria: 
+- Subjects who can maintain health diaries
+- Patients with a stable family environment
+- Subjects without major psychiatric disorders
+- Patients able to recognize symptom changes
+
+Exclusion criteria: 
+- Participants involved in peer support groups
+- Individuals not on restrictive diets
+- Patients with a documented treatment plan
+- diagnosed with the topic condition for at least 1 year
+- Adolescents aged 13-18
+- Individuals showing interest in study findings
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

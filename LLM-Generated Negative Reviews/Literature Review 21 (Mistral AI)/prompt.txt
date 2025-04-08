@@ -1,0 +1,20 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Head injury".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Individuals motivated by peer influence
+- Patients who have received standard care
+- Individuals with musculoskeletal disorders
+- Subjects without concurrent major treatment
+
+The generated data should follow all of the following criteria: 
+- mentions results
+- Subjects with effective coping strategies
+- Individuals with no significant cognitive impairment
+- Patients who manage stress effectively
+- Patients engaged in regular health assessments
+- english
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 20 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

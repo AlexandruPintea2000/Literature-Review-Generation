@@ -1,0 +1,22 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Retinal detachment".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Participants with endocrine disorders
+- Participants involved in exercise groups
+- Participants from underserved populations
+- Patients who have received standard care
+- Individuals willing to engage in group discussions
+
+The generated data should follow all of the following criteria: 
+- Patients willing to report health status changes
+- Subjects who have demonstrated improvements in lifestyle
+- Subjects with cancer
+- Participants attending wellness seminars
+- Subjects without recent hospitalization
+- experimental, observational or bothbe published in the last 5 years
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 22 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.
+No newlines in any JSON field.

@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Generalized anxiety disorder" are found within the given JSON.
+
+Inclusion criteria: 
+- Patients who do not have caregiving responsibilities
+- Individuals with no history of allergies
+- Individuals with no significant cognitive impairment
+- Adolescents aged 13-18
+
+Exclusion criteria: 
+- Individuals motivated by peer influence
+- Patients engaged in regular health assessments
+- Participants involved in exercise groups
+- Subjects reporting accurate health information
+- Participants who are not pregnant
+- cohort study
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

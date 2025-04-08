@@ -1,0 +1,23 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Bites and stings - insect" are found within the given JSON.
+
+Inclusion criteria: 
+- Subjects with gastrointestinal disorders
+- adult participants only
+- Patients committed to frequent check-ins
+- Participants driven by personal health goals
+- diagnosed with the topic condition for at least 1 year
+- Participants involved in community fitness events
+
+Exclusion criteria: 
+- Individuals with effective communication skills
+- Participants who demonstrate resilience
+- Patients with known treatment responsiveness
+- Patients engaged in regular health assessments
+- Patients who are motivated for treatment
+- Individuals who agree to randomization procedures
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

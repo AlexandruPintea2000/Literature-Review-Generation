@@ -1,0 +1,10 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Participants attending wellness seminars",
+        "Participants willing to track personal health data",
+        "Participants demonstrating improvement over time",
+        "Participants not currently participating in other trials"
+    ],
+    "topic_found": true
+}

@@ -1,0 +1,21 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Rosacea".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Individuals providing accurate demographic data
+- Participants involved in volunteer work
+- Individuals with access to nutritious food
+- Subjects from diverse ethnic backgrounds
+- Participants involved in peer support groups
+
+The generated data should follow all of the following criteria: 
+- Individuals who consent to participate
+- Subjects demonstrating openness to recommendations
+- Patients with neurological conditions
+- Participants who speak the local language
+- Individuals willing to explore new treatment modalities
+- Individuals participating in health education workshops
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 17 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

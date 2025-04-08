@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Polymyalgia rheumatica" are found within the given JSON.
+
+Inclusion criteria: 
+- Subjects from diverse ethnic backgrounds
+- Individuals with ongoing medical supervision
+- Subjects adhering to research guidelines
+- Individuals receiving preventive care
+
+Exclusion criteria: 
+- Patients engaged in collaborative care models
+- Participants who demonstrate resilience
+- Patients who communicate openly about health concerns
+- Volunteers from community health centers
+- Healthcare workers as study subjects
+- Individuals who agree to randomization procedures
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

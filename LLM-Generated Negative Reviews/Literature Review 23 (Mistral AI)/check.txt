@@ -1,0 +1,21 @@
+Role: You are a researcher screening titles, abstracts, full texts (~2000 words), keywords and MeSH provided in a { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" } JSON format.
+
+Task: Verify if all the provided inclusion and exclusion criteria as well as the topic of "Anaemia - B12 and folate deficiency" are found within the given JSON.
+
+Inclusion criteria: 
+- Female participants
+- Patients receiving coordinated care
+- Individuals who attend support groups proactively
+- Patients with established social support systems
+- Participants with low socioeconomic status
+- Patients enrolled in clinical trials
+
+Exclusion criteria: 
+- Patients who manage stress effectively
+- Participants with experience in health research
+- Subjects from diverse ethnic backgrounds
+- Participants with specific comorbidities
+
+Provide your output in a JSON format that looks like this: { "inclusion_criteria_found": ["criterion 1", "criterion 2"], "exclusion_criteria_found": ["criterion 1", "criterion 2"], "topic_found": true/false }
+
+Include no " or : characters besides the ones needed for the aforementioned JSON format.

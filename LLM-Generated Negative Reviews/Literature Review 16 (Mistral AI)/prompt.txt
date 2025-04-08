@@ -1,0 +1,19 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Pityriasis versicolor".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Patients able to recognize symptom changes
+- Individuals willing to complete follow-up assessments
+- Participants involved in peer support groups
+- Individuals not on restrictive diets
+
+The generated data should follow all of the following criteria: 
+- Subjects practicing mindfulness or relaxation techniques
+- Participants with prior knowledge of study topic
+- Participants comfortable sharing medical history
+- Patients willing to provide medical history
+- Individuals receiving preventive care
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 13 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

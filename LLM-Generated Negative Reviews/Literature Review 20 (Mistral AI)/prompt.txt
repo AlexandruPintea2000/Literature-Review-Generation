@@ -1,0 +1,21 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Pancreatitis - chronic".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- the experimental setting is mentioned
+- Patients who communicate openly about health concerns
+- Subjects with specific lab results within normal ranges
+- Participants with a stable living environment
+- Participants with specific genetic conditions
+- Participants with specific comorbidities
+
+The generated data should follow all of the following criteria: 
+- Participants with endocrine disorders
+- Subjects who have demonstrated improvements in lifestyle
+- diagnosed with the topic condition for at least 1 year
+- Individuals engaged in self-management practices
+- Patients with current insurance coverage
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 26 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.

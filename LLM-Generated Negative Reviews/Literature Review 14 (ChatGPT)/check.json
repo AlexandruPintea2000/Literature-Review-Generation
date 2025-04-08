@@ -1,0 +1,10 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Participants who are not pregnant",
+        "Individuals with sleep disorders",
+        "Patients involved in lifestyle modification programs",
+        "Patients who have received standard care"
+    ],
+    "topic_found": true
+}

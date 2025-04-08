@@ -1,0 +1,21 @@
+Role: You are a researcher writing titles, abstracts, full texts (~2000 words), keywords and MeSH terms for a scientific paper on the topic of "Polymyalgia rheumatica".
+
+Task: Formulate title, abstract, full texts (~2000 words), keywords and MeSH terms that would not follow any of the following article selection criteria: 
+- Subjects from diverse ethnic backgrounds
+- Individuals with ongoing medical supervision
+- Subjects adhering to research guidelines
+- Individuals receiving preventive care
+
+The generated data should follow all of the following criteria: 
+- Patients engaged in collaborative care models
+- Participants who demonstrate resilience
+- Patients who communicate openly about health concerns
+- Volunteers from community health centers
+- Healthcare workers as study subjects
+- Individuals who agree to randomization procedures
+
+Provide your output in the following JSON format: { "title": "", "abstract": "", "full_text": "", "keywords": "", "MeSH": "" }.
+Include no " or : characters besides the ones needed for the aforementioned JSON format.
+Generate 38 JSONs within an array.
+Keywords and MeSH terms should be lowercase and within arrays.
+No newlines in any JSON field. 

@@ -1,0 +1,11 @@
+{
+    "inclusion_criteria_found": [],
+    "exclusion_criteria_found": [
+        "Participants in long-term care settings",
+        "Subjects without recent hospitalization",
+        "Participants willing to engage in health advocacy",
+        "Patients involved in lifestyle modification programs",
+        "Subjects living in stable communities"
+    ],
+    "topic_found": true
+}
